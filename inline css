@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline CSS</title>  <!--Use the style attribute inside an HTML tag.-->
+  </head>
+<body>
+
+  <h1 style="color : blue; text-align: center;">MY First CSS Example</h1>
+  <p style="color : red; font-size: 20px; text-align: center;">This is a paragraph.</p>
+
+</body>
+</html>
