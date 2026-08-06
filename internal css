@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Internal CSS</title>  <!--Written inside the <style> tag.-->
+  <style>
+    h1 {
+      color: blue;
+    }
+    p {
+      color: brown;
+      font-size: 20px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1>Hello World</h1>
+  <p>Welcome to CSS</p>
+
+</body>
+</html>
