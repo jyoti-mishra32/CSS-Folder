@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>CSS Id Selector</title>  <!--The id selector uses the id attribute of an HTML element to select a specific element.-->
+  
+  <style>
+    #paral {
+      color: red;
+      text-align: center;
+    }
+
+    p {
+      color: blueviolet;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+<p id="paral">Hello World</p>
+<p>This paragraph is not affected by the style.</p>
+
+</body>
+</html>
