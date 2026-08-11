@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1.ex1 {
+  text-decoration: overline;
+}
+
+h1.ex2 {
+  text-decoration: line-through;
+}
+
+h1.ex3 {
+  text-decoration: underline;
+}
+
+h1.ex4 {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+
+h1.ex5 {
+  text-decoration-line: line-through;
+  text-decoration-color: blue;
+}
+
+h1.ex6 {
+  text-decoration-line: underline;
+  text-decoration-color: green;
+}
+
+h1.ex7 {
+  text-decoration-line: overline underline;
+  text-decoration-color: purple;
+}
+p.ex1 {
+  text-decoration: overline underline;
+}
+
+p.ex2 {
+  text-decoration-line: overline underline;
+  text-decoration-color: purple;
+}
+</style>
+</head>
+<body>
+
+<h1 class="ex1">Overline text decoration</h1>
+<h1 class="ex2">Line-through text decoration</h1>
+<h1 class="ex3">Underline text decoration</h1>
+<p class="ex1">Overline and underline text decoration.</p>
+
+<p><strong>Note:</strong> It is not recommended to underline text that is not a link, as this often confuses 
+the reader.</p>
+
+
+<!--Text-decoration Color-->
+<h1 class="ex4">Overline text decoration</h1>
+<h1 class="ex5">Line-through text decoration</h1>
+<h1 class="ex6">Underline text decoration</h1>
+<p class="ex2">Overline and underline text decoration.</p>
+
+</body>
+</html>
+
+
