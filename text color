@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Text Color</title>
+
+</head>
+<body>
+  
+<h3 style="color: tomato;">Hello World</h3>
+
+<p style="color: dodgerblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nesciunt itaque tempore perspiciatis dolorem at doloremque culpa non, sapiente perferendis dignissimos accusamus, ab nobis doloribus adipisci magni quam! Molestiae, placeat.</p>
+
+<p style="color: mediumseagreen;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quae, veniam, dignissimos quaerat ullam deserunt facere repellat, alias accusantium asperiores optio. Dolor, corporis. Numquam beatae placeat ut fugit. Autem, dolor?</p>
+
+</body>
+</html>
