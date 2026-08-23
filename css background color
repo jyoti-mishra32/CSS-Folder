@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Background Color</title>  <!--You can set the background color for HTML elements.-->
+
+</head>
+<body>
+  
+  <h1 style="background-color: blue;">Hello World</h1>
+
+  <p style="background-color: brown;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis numquam. Quis ratione placeat eos itaque soluta suscipit voluptatem repellendus.</p>
+
+</body>
+</html>
