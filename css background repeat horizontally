@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Background Repeat Horizontally</title>
+
+  <style>
+    body {
+      background-image: url("Images/Image2.avif");
+      background-repeat: repeat-x;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>Hello World</h1>
+  <p>Here, a background image is repeated only horizontally!</p>
+
+</body>
+</html>
