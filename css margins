@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>CSS Margin</title>  <!--Margin is the space outside an element.-->
+
+  <style>
+    p.one {
+      border: 2px solid green;
+      margin: 70px;
+    }
+
+    p.two {
+      border: 2px solid blue;
+      margin-top: 100px ;
+      margin-right: 150px;
+      margin-bottom: 100px;
+      margin-left: 80px;
+    }
+
+    p.three {
+      border: 2px solid black;
+      margin: 25px 50px 75px 100px;
+      background-color: lightblue;
+    }
+
+    div.auto {
+      width: 300px;
+      margin: auto;
+      border: 1px solid red;
+    }
+    
+    div.inherit {
+      border: 1px solid red;
+      margin-left: 100px;
+    }
+
+    p.four {
+      margin-left: inherit;
+    }
+  </style>
+</head>
+<body>
+  
+  <h2>CSS Margins</h2>
+
+  <p class="one">This element has a margin of 70px.</p>
+
+  <!--Margin-Individual Sides-->
+  <p class="two">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px..</p>
+
+  <!--Margin Shorthand Property-->
+  <h2>The margin shorthand property-4 values</h2>
+  <p class="three">This div element has a top margin of 25px, a right margin of 50px, a bottom margin of 75px, and a left margin of 100px,</p>
+
+  <!--Auto Value-->
+  <h2>Use of margin: auto</h2>
+  <p>You can set the margin property to auto to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins:</p>
+
+  <div class="auto">
+  This div will be horizontally centered because it has margin: auto;
+  </div>
+
+
+  <!--Inherit Value-->
+  <h2>Use of the inherit value</h2>
+  <p>Let the left margin be inherited from the parent element:</p>
+
+  <div class="inherit">
+  <p class="four">This paragraph has an inherited left margin (from the div element).</p>
+  </div>
+</body>
+</html>
