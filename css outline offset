@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  margin: 30px;
+  padding: 10px;
+}
+p.ex1 {
+  border: 1px solid black;
+  outline: 3px solid red;
+  outline-offset: 15px;
+  height: 50px;
+  width: 200px;
+}
+
+p.ex2 {
+  border: 1px solid black;
+  outline: 3px solid red;
+  outline-offset: -5px;
+  background: yellow;
+  height: 50px;
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<h2>The outline-offset Property</h2>
+
+<p class="ex1">This paragraph has a black border and a red outline 15px outside the border edge.</p>
+
+<p class="ex2">This paragraph has a black border and a red outline -5px outside the border edge.</p>
+
+</body>
+</html>
+
+
