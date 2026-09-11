@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Outline Shorthand Property</title>  <!--outline shorthand property is used to set outline width, style and color in online.-->
+
+  <style>
+    p {
+      padding: 5px;
+      border: 1px solid black;
+    }
+
+    p.ex1 {outline: dashed;}
+    p.ex2 {outline: dotted red;}
+    p.ex3 {outline: 7px solid yellow;}
+    p.ex4 {outline: thick ridge pink; }
+    p.ex5 {
+      outline: dashed;
+      border-radius: 8px;
+    }
+
+    p.ex6 {
+      outline: dotted red;
+      border-radius: 5px;
+    }
+
+    p.ex7 {
+      outline: 7px solid yellow;
+      border-radius: 5px;
+    }
+
+    p.ex8 {
+      outline: thick ridge pink;
+      border-radius: 5px;
+    }
+
+    p.ex9 {
+      outline: thick solid green;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>The outline shorthand Property</h2>
+
+  <p class="ex1">A dashed outline.</p>
+  <p class="ex2">A dotted outline.</p>
+  <p class="ex3">A 7px solid yellow outline.</p>
+  <p class="ex4">A thick ridge pink outline.</p>
+  
+  <!--Outline with Rounded Colors-->
+  <p class="ex5">A dashed outline.</p>
+  <p class="ex6">A dotted red outline.</p>
+  <p class="ex7">A 7px solid yellow outline.</p>
+  <p class="ex8">A thick ridge pink outline.</p>
+  <p class="ex9">A thick solid green outline.</p>
+</body>
+</html>
